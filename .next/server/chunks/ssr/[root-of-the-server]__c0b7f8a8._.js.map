@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///Users/harshitgangwar/Desktop/SkillForge/app/%28main%29/resume/page.jsx"],"sourcesContent":["import { getResume } from \"@/actions/resume\";\nimport ResumeBuilder from \"./_components/resume-builder\";\n\nexport default async function ResumePage() {\n  const resume = await getResume();\n\n  return (\n    <div className=\"container mx-auto py-6\">\n      <ResumeBuilder initialContent={resume?.content} />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEe,eAAe;IAC5B,MAAM,SAAS,MAAM,IAAA,8HAAS;IAE9B,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,yKAAa;YAAC,gBAAgB,QAAQ;;;;;;;;;;;AAG7C","debugId":null}}]
+}

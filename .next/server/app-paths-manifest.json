@@ -1,7 +1,4 @@
 {
-  "/(main)/dashboard/page": "app/(main)/dashboard/page.js",
-  "/(main)/interview/mock/page": "app/(main)/interview/mock/page.js",
-  "/(main)/interview/page": "app/(main)/interview/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"
 }
