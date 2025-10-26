@@ -44,4 +44,28 @@ export const topics = [
     video: "https://www.youtube.com/embed/c2M-rlkkT5o",
     cheatSheets: ["/cheatSheets/mongodb_basics.pdf"],
   },
+
+  {
+    name: "NextJS14",
+    video: "https://www.youtube.com/embed/yN8VXmncvRU?si=hFoCHRw_o40o_wI_",
+    cheatSheets: [],
+  },
+
+  {
+    name: "Git & Github",
+    video: "https://www.youtube.com/embed/Ez8F0nW6S-w?si=27_G1Imgzbs9B0nt",
+    cheatSheets: [],
+  },
+
+  {
+    name: "Docker",
+    video: "https://www.youtube.com/embed/H8Lyj2D_cWo?si=d71AWV71R1gi6Bg0",
+    cheatSheets: [],
+  },
+
+  {
+    name: "",
+    video: "https://www.youtube.com/embed/yN8VXmncvRU?si=hFoCHRw_o40o_wI_",
+    cheatSheets: [],
+  },
 ];

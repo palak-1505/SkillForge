@@ -269,9 +269,18 @@ export default function CareerFaqs() {
 
       <div className="text-center max-w-4xl mx-auto">
         <p className="text-slate-400 text-sm uppercase tracking-widest">FAQ</p>
-        <h1 className="text-4xl md:text-5xl font-bold mt-2">
-          BTech CS Career & Academic FAQs
-        </h1>
+        <h1
+  className="text-4xl md:text-5xl font-extrabold mt-2 
+             text-transparent bg-clip-text 
+             bg-gradient-to-b from-gray-100 to-gray-500 
+             drop-shadow-[0_4px_8px_rgba(0,0,0,0.4)] 
+             transition-all duration-500 
+             hover:scale-105 hover:drop-shadow-[0_6px_12px_rgba(255,255,255,0.6)]"
+>
+  BTech CS Career & Academic FAQs
+</h1>
+
+
         <p className="text-slate-400 text-sm md:text-base mt-4">
           Search questions by keyword and find answers for all 4 years and
           career guidance.

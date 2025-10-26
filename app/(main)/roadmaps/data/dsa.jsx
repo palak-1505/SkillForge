@@ -4,6 +4,7 @@ const DSA = {
     objective:
       "Master Data Structures and Algorithms from scratch to advanced levels. Build problem-solving skills for interviews, competitive programming, and real-world applications.",
       pdf: "/pdfs/dsa.pdf",
+      
     sections: [
       {
         title: "1. Basics of DSA",

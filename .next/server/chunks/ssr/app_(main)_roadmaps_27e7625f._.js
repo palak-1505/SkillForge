@@ -1050,7 +1050,7 @@ function Page() {
                         className: "flex justify-between items-center mb-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-3xl font-extrabold text-indigo-400 tracking-wide",
+                                className: "text-3xl font-extrabold tracking-wide  text-indigo-400 transition-all duration-500  hover:scale-105 hover:text-indigo-300  drop-shadow-[0_2px_6px_rgba(79,70,229,0.6)]",
                                 children: [
                                     "Skill",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1058,8 +1058,8 @@ function Page() {
                                         children: "Forge"
                                     }, void 0, false, {
                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                        lineNumber: 34,
-                                        columnNumber: 18
+                                        lineNumber: 39,
+                                        columnNumber: 8
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1073,7 +1073,7 @@ function Page() {
                                 children: "✕"
                             }, void 0, false, {
                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                lineNumber: 36,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1092,7 +1092,7 @@ function Page() {
                             children: category
                         }, category, false, {
                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                            lineNumber: 44,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this))
                 ]
@@ -1113,13 +1113,13 @@ function Page() {
                                 children: "Forge"
                             }, void 0, false, {
                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                lineNumber: 67,
+                                lineNumber: 74,
                                 columnNumber: 16
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                        lineNumber: 66,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1128,13 +1128,13 @@ function Page() {
                         children: "☰"
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                        lineNumber: 69,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                lineNumber: 65,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1148,7 +1148,7 @@ function Page() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                        lineNumber: 79,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     topics.length > 0 && selected !== "4-Year B.Tech CSE" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1159,12 +1159,12 @@ function Page() {
                                 children: topic
                             }, topic, false, {
                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                lineNumber: 87,
+                                lineNumber: 94,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                        lineNumber: 85,
+                        lineNumber: 92,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1189,7 +1189,7 @@ function Page() {
                                 children: "Download PDF"
                             }, void 0, false, {
                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                lineNumber: 111,
+                                lineNumber: 118,
                                 columnNumber: 13
                             }, this),
                             selected !== "4-Year B.Tech CSE" && selectedContent?.sections ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1200,7 +1200,7 @@ function Page() {
                                         children: selectedContent.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                        lineNumber: 124,
+                                        lineNumber: 131,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1208,7 +1208,7 @@ function Page() {
                                         children: selectedContent.objective
                                     }, void 0, false, {
                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                        lineNumber: 127,
+                                        lineNumber: 134,
                                         columnNumber: 15
                                     }, this),
                                     selectedContent.sections.map((section, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1219,7 +1219,7 @@ function Page() {
                                                     children: section.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 139,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1228,24 +1228,24 @@ function Page() {
                                                             children: point
                                                         }, i, false, {
                                                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                            lineNumber: 137,
+                                                            lineNumber: 144,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 142,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                            lineNumber: 131,
+                                            lineNumber: 138,
                                             columnNumber: 17
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                lineNumber: 123,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, this) : null,
                             selected === "4-Year B.Tech CSE" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1258,7 +1258,7 @@ function Page() {
                                                 children: year
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                lineNumber: 154,
+                                                lineNumber: 161,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1266,7 +1266,7 @@ function Page() {
                                                 children: data.focus
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                lineNumber: 157,
+                                                lineNumber: 164,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1274,7 +1274,7 @@ function Page() {
                                                 children: "🎯 Goals"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                lineNumber: 159,
+                                                lineNumber: 166,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1283,12 +1283,12 @@ function Page() {
                                                         children: g
                                                     }, i, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 164,
+                                                        lineNumber: 171,
                                                         columnNumber: 25
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                lineNumber: 162,
+                                                lineNumber: 169,
                                                 columnNumber: 21
                                             }, this),
                                             data.technicalLearning && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1298,7 +1298,7 @@ function Page() {
                                                         children: "💻 Technical Learning"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 177,
                                                         columnNumber: 25
                                                     }, this),
                                                     Object.entries(data.technicalLearning).map(([topic, points])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1308,7 +1308,7 @@ function Page() {
                                                                     children: topic
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                    lineNumber: 176,
+                                                                    lineNumber: 183,
                                                                     columnNumber: 31
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1317,18 +1317,18 @@ function Page() {
                                                                             children: p
                                                                         }, i, false, {
                                                                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                            lineNumber: 179,
+                                                                            lineNumber: 186,
                                                                             columnNumber: 35
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                    lineNumber: 177,
+                                                                    lineNumber: 184,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, topic, true, {
                                                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                            lineNumber: 175,
+                                                            lineNumber: 182,
                                                             columnNumber: 29
                                                         }, this))
                                                 ]
@@ -1340,7 +1340,7 @@ function Page() {
                                                         children: "🧩 Practice Platforms"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 190,
+                                                        lineNumber: 197,
                                                         columnNumber: 25
                                                     }, this),
                                                     Object.entries(data.practicePlatforms).map(([cat, list])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1350,7 +1350,7 @@ function Page() {
                                                                     children: cat
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                    lineNumber: 196,
+                                                                    lineNumber: 203,
                                                                     columnNumber: 31
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1359,18 +1359,18 @@ function Page() {
                                                                             children: item
                                                                         }, i, false, {
                                                                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                            lineNumber: 199,
+                                                                            lineNumber: 206,
                                                                             columnNumber: 35
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                    lineNumber: 197,
+                                                                    lineNumber: 204,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, cat, true, {
                                                             fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                            lineNumber: 195,
+                                                            lineNumber: 202,
                                                             columnNumber: 29
                                                         }, this))
                                                 ]
@@ -1382,7 +1382,7 @@ function Page() {
                                                         children: "💼 Internships"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 218,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1391,12 +1391,12 @@ function Page() {
                                                                 children: item
                                                             }, i, false, {
                                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                lineNumber: 216,
+                                                                lineNumber: 223,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 214,
+                                                        lineNumber: 221,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
@@ -1408,7 +1408,7 @@ function Page() {
                                                         children: "🌍 Open Source"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 223,
+                                                        lineNumber: 230,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1417,12 +1417,12 @@ function Page() {
                                                                 children: item
                                                             }, i, false, {
                                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                lineNumber: 228,
+                                                                lineNumber: 235,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 226,
+                                                        lineNumber: 233,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
@@ -1434,7 +1434,7 @@ function Page() {
                                                         children: "🧪 Research Projects"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 235,
+                                                        lineNumber: 242,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1443,12 +1443,12 @@ function Page() {
                                                                 children: item
                                                             }, i, false, {
                                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                lineNumber: 240,
+                                                                lineNumber: 247,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 245,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
@@ -1460,7 +1460,7 @@ function Page() {
                                                         children: "☀️ Summer Vacation Goals"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 247,
+                                                        lineNumber: 254,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1469,12 +1469,12 @@ function Page() {
                                                                 children: item
                                                             }, i, false, {
                                                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                                lineNumber: 252,
+                                                                lineNumber: 259,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                                        lineNumber: 250,
+                                                        lineNumber: 257,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
@@ -1482,24 +1482,24 @@ function Page() {
                                         ]
                                     }, year, true, {
                                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                        lineNumber: 150,
+                                        lineNumber: 157,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                                lineNumber: 147,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                        lineNumber: 103,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(main)/roadmaps/page.jsx",
-                lineNumber: 78,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]

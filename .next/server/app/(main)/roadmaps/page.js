@@ -8,7 +8,7 @@ R.c("server/chunks/ssr/node_modules_tailwind-merge_dist_bundle-mjs_mjs_c4cc2bc2.
 R.c("server/chunks/ssr/node_modules_@clerk_nextjs_dist_esm_f43757af._.js")
 R.c("server/chunks/ssr/node_modules_@clerk_backend_dist_26f7de58._.js")
 R.c("server/chunks/ssr/node_modules_5e7c1b3b._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__ded0d941._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3fbf9c70._.js")
 R.c("server/chunks/ssr/app_not-found_jsx_0ffc2b6a._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_2fffaa3a._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_15817684.js")

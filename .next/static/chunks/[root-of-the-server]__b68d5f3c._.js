@@ -67,6 +67,26 @@ const topics = [
         cheatSheets: [
             "/cheatSheets/mongodb_basics.pdf"
         ]
+    },
+    {
+        name: "NextJS14",
+        video: "https://www.youtube.com/embed/yN8VXmncvRU?si=hFoCHRw_o40o_wI_",
+        cheatSheets: []
+    },
+    {
+        name: "Git & Github",
+        video: "https://www.youtube.com/embed/Ez8F0nW6S-w?si=27_G1Imgzbs9B0nt",
+        cheatSheets: []
+    },
+    {
+        name: "Docker",
+        video: "https://www.youtube.com/embed/H8Lyj2D_cWo?si=d71AWV71R1gi6Bg0",
+        cheatSheets: []
+    },
+    {
+        name: "",
+        video: "https://www.youtube.com/embed/yN8VXmncvRU?si=hFoCHRw_o40o_wI_",
+        cheatSheets: []
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -127,27 +147,32 @@ function PreparationStreet() {
                 className: "w-64 bg-gradient-to-b from-gray-950 to-black p-6 flex flex-col gap-4 shadow-2xl border-r border-gray-800/60",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-3xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 tracking-tight",
+                        className: "text-3xl font-extrabold mb-6  bg-clip-text text-transparent  tracking-tight  drop-shadow-[0_3px_8px_rgba(0,0,0,0.4)]  transition-all duration-500  hover:scale-105 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.6)]",
+                        style: {
+                            background: "linear-gradient(to bottom, #f0f2f5, #a3adb9, #6b7280)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent"
+                        },
                         children: "Preparation Street"
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$app$2f28$main$292f$preparationstreet$2f$preparationStreet$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["topics"].map((topic, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setSelectedTopic(topic),
-                            className: "text-left p-3 rounded-lg transition-all duration-300 \n              hover:shadow-lg hover:translate-x-1 \n              ".concat(selectedTopic.name === topic.name ? "bg-gradient-to-r from-purple-700 to-pink-600 shadow-lg" : "bg-gray-900 hover:bg-gray-800"),
+                            className: "text-left p-3 rounded-lg transition-all duration-300 \n              hover:shadow-lg hover:translate-x-1 \n              ".concat(selectedTopic.name === topic.name ? "bg-gradient-to-b from-[#f0f2f5] via-[#a3adb9] to-[#6b7280] text-black shadow-lg" : "bg-gray-900 hover:bg-gray-800"),
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-base font-medium",
                                 children: topic.name
                             }, void 0, false, {
                                 fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                                lineNumber: 37,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this)
                         }, i, false, {
                             fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                            lineNumber: 26,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this))
                 ]
@@ -160,11 +185,16 @@ function PreparationStreet() {
                 className: "flex-1 p-8 overflow-y-auto backdrop-blur-sm space-y-8 bg-black/30 shadow-inner",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400 drop-shadow-[0_0_10px_rgba(236,72,153,0.4)]",
+                        className: "text-4xl font-semibold bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,0,0,0.5)] transition-all duration-500 hover:scale-105",
+                        style: {
+                            background: "linear-gradient(to bottom, #f0f2f5, #a3adb9, #6b7280)",
+                            WebkitBackgroundClip: "text",
+                            WebkitTextFillColor: "transparent"
+                        },
                         children: selectedTopic.name
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                        lineNumber: 45,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -176,51 +206,56 @@ function PreparationStreet() {
                             allowFullScreen: true
                         }, void 0, false, {
                             fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                            lineNumber: 51,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                        lineNumber: 50,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 gap-8",
                         children: selectedTopic.cheatSheets.map((sheet, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-gradient-to-br from-gray-950 to-gray-900 border border-gray-800/70 rounded-2xl p-5 flex flex-col items-center  shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] transition-all duration-300",
+                                className: "bg-gradient-to-b from-gray-950 to-gray-900 border border-gray-800/70 rounded-2xl p-5 flex flex-col items-center  shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(163,173,185,0.4)] transition-all duration-300",
                                 children: sheet.endsWith(".pdf") ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: sheet.startsWith("http") ? sheet : "".concat(sheet),
                                     target: "_blank",
                                     rel: "noopener noreferrer",
-                                    className: "text-purple-400 underline hover:text-pink-400 text-lg font-medium",
+                                    className: "underline text-lg font-medium transition-all duration-300",
+                                    style: {
+                                        background: "linear-gradient(to bottom, #f0f2f5, #a3adb9, #6b7280)",
+                                        WebkitBackgroundClip: "text",
+                                        WebkitTextFillColor: "transparent"
+                                    },
                                     children: "View PDF Cheat Sheet"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                                    lineNumber: 68,
+                                    lineNumber: 91,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: sheet,
                                     alt: "cheat sheet",
-                                    className: "rounded-xl max-h-80 object-contain shadow-md hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.3)] transition-transform duration-300"
+                                    className: "rounded-xl max-h-80 object-contain shadow-md hover:scale-105 hover:shadow-[0_0_20px_rgba(163,173,185,0.3)] transition-transform duration-300"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 106,
                                     columnNumber: 17
                                 }, this)
                             }, i, false, {
                                 fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                                lineNumber: 62,
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                        lineNumber: 60,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(main)/preparationstreet/page.jsx",
-                lineNumber: 43,
+                lineNumber: 58,
                 columnNumber: 7
             }, this)
         ]

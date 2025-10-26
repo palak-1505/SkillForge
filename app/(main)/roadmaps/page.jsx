@@ -30,9 +30,16 @@ export default function Page() {
         }`}
       >
         <div className="flex justify-between items-center mb-10">
-          <h1 className="text-3xl font-extrabold text-indigo-400 tracking-wide">
-            Skill<span className="text-white">Forge</span>
-          </h1>
+          <h1
+  className="text-3xl font-extrabold tracking-wide 
+             text-indigo-400 transition-all duration-500 
+             hover:scale-105 hover:text-indigo-300 
+             drop-shadow-[0_2px_6px_rgba(79,70,229,0.6)]"
+>
+  Skill<span className="text-white">Forge</span>
+</h1>
+
+
           <button
             className="md:hidden text-gray-400 hover:text-white"
             onClick={() => setSidebarOpen(false)}

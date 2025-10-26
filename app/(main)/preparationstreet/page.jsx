@@ -18,10 +18,25 @@ export default function PreparationStreet() {
     >
       {/* Sidebar */}
       <aside className="w-64 bg-gradient-to-b from-gray-950 to-black p-6 flex flex-col gap-4 shadow-2xl border-r border-gray-800/60">
-        <h1 className="text-3xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500 tracking-tight">
+        {/* Title */}
+        <h1
+          className="text-3xl font-extrabold mb-6 
+                     bg-clip-text text-transparent 
+                     tracking-tight 
+                     drop-shadow-[0_3px_8px_rgba(0,0,0,0.4)] 
+                     transition-all duration-500 
+                     hover:scale-105 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.6)]"
+          style={{
+            background:
+              "linear-gradient(to bottom, #f0f2f5, #a3adb9, #6b7280)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
           Preparation Street
         </h1>
 
+        {/* Sidebar Buttons */}
         {topics.map((topic, i) => (
           <button
             key={i}
@@ -30,7 +45,7 @@ export default function PreparationStreet() {
               hover:shadow-lg hover:translate-x-1 
               ${
                 selectedTopic.name === topic.name
-                  ? "bg-gradient-to-r from-purple-700 to-pink-600 shadow-lg"
+                  ? "bg-gradient-to-b from-[#f0f2f5] via-[#a3adb9] to-[#6b7280] text-black shadow-lg"
                   : "bg-gray-900 hover:bg-gray-800"
               }`}
           >
@@ -42,7 +57,15 @@ export default function PreparationStreet() {
       {/* Main Content */}
       <main className="flex-1 p-8 overflow-y-auto backdrop-blur-sm space-y-8 bg-black/30 shadow-inner">
         {/* Title */}
-        <h2 className="text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400 drop-shadow-[0_0_10px_rgba(236,72,153,0.4)]">
+        <h2
+          className="text-4xl font-semibold bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,0,0,0.5)] transition-all duration-500 hover:scale-105"
+          style={{
+            background:
+              "linear-gradient(to bottom, #f0f2f5, #a3adb9, #6b7280)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
           {selectedTopic.name}
         </h2>
 
@@ -61,15 +84,21 @@ export default function PreparationStreet() {
           {selectedTopic.cheatSheets.map((sheet, i) => (
             <div
               key={i}
-              className="bg-gradient-to-br from-gray-950 to-gray-900 border border-gray-800/70 rounded-2xl p-5 flex flex-col items-center 
-                         shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] transition-all duration-300"
+              className="bg-gradient-to-b from-gray-950 to-gray-900 border border-gray-800/70 rounded-2xl p-5 flex flex-col items-center 
+                         shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(163,173,185,0.4)] transition-all duration-300"
             >
               {sheet.endsWith(".pdf") ? (
                 <a
                   href={sheet.startsWith("http") ? sheet : `${sheet}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-purple-400 underline hover:text-pink-400 text-lg font-medium"
+                  className="underline text-lg font-medium transition-all duration-300"
+                  style={{
+                    background:
+                      "linear-gradient(to bottom, #f0f2f5, #a3adb9, #6b7280)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
                 >
                   View PDF Cheat Sheet
                 </a>
@@ -77,7 +106,7 @@ export default function PreparationStreet() {
                 <img
                   src={sheet}
                   alt="cheat sheet"
-                  className="rounded-xl max-h-80 object-contain shadow-md hover:scale-105 hover:shadow-[0_0_20px_rgba(236,72,153,0.3)] transition-transform duration-300"
+                  className="rounded-xl max-h-80 object-contain shadow-md hover:scale-105 hover:shadow-[0_0_20px_rgba(163,173,185,0.3)] transition-transform duration-300"
                 />
               )}
             </div>

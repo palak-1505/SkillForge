@@ -227,7 +227,7 @@ function CareerFaqs() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-4xl md:text-5xl font-bold mt-2",
+                        className: "text-4xl md:text-5xl font-extrabold mt-2  text-transparent bg-clip-text  bg-gradient-to-b from-gray-100 to-gray-500  drop-shadow-[0_4px_8px_rgba(0,0,0,0.4)]  transition-all duration-500  hover:scale-105 hover:drop-shadow-[0_6px_12px_rgba(255,255,255,0.6)]",
                         children: "BTech CS Career & Academic FAQs"
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/career-faqs/page.jsx",
@@ -239,7 +239,7 @@ function CareerFaqs() {
                         children: "Search questions by keyword and find answers for all 4 years and career guidance."
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                        lineNumber: 275,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -250,7 +250,7 @@ function CareerFaqs() {
                         className: "mt-6 w-full md:w-3/4 bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     }, void 0, false, {
                         fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                        lineNumber: 281,
+                        lineNumber: 290,
                         columnNumber: 9
                     }, this)
                 ]
@@ -269,7 +269,7 @@ function CareerFaqs() {
                                     children: year
                                 }, void 0, false, {
                                     fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                    lineNumber: 293,
+                                    lineNumber: 302,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -286,7 +286,7 @@ function CareerFaqs() {
                                                             children: faq.question
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                                            lineNumber: 308,
+                                                            lineNumber: 317,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -303,18 +303,18 @@ function CareerFaqs() {
                                                                 strokeLinejoin: "round"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                                                lineNumber: 320,
+                                                                lineNumber: 329,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                                            lineNumber: 311,
+                                                            lineNumber: 320,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                                    lineNumber: 302,
+                                                    lineNumber: 311,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -324,29 +324,29 @@ function CareerFaqs() {
                                                         children: faq.answer
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 345,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                                    lineNumber: 329,
+                                                    lineNumber: 338,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                            lineNumber: 298,
+                                            lineNumber: 307,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                                    lineNumber: 296,
+                                    lineNumber: 305,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, year, true, {
                             fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                            lineNumber: 292,
+                            lineNumber: 301,
                             columnNumber: 11
                         }, this)),
                     filteredFaqs.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -358,13 +358,13 @@ function CareerFaqs() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                        lineNumber: 346,
+                        lineNumber: 355,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/(main)/career-faqs/page.jsx",
-                lineNumber: 290,
+                lineNumber: 299,
                 columnNumber: 7
             }, this)
         ]

@@ -1,4 +1,4 @@
-import { BrainCircuit, Briefcase, LineChart, ScrollText, ChartNoAxesGantt, CircleQuestionMark} from "lucide-react";
+import { BrainCircuit, Briefcase, LineChart, ScrollText, ChartNoAxesGantt, CircleQuestionMark, Code} from "lucide-react";
 
 export const features = [
   {
@@ -35,5 +35,13 @@ export const features = [
     title: "Answers & Common Doubts",
     description:
       "Get clarity on questions like C++ vs Java for DSA or Web vs AI/ML, with detailed pros/cons and expert guidance to make informed decisions.",
+  },
+
+  {
+    icon: <Code className="w-10 h-10 mb-4 text-primary" />,
+    title: "Preparation Street",
+    description:
+      "Master web development fundamentals with clear, hands-on tutorials on web development. Get practical guidance, tips, and step-by-step explanations to build your skills confidently.",
+
   }
 ];

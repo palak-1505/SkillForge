@@ -6,6 +6,7 @@ import { Toaster } from "sonner";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import Link from "next/link";
+import SnakeCursor from "@/components/SnakeCursor";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
@@ -22,7 +23,8 @@ export default function RootLayout({ children }) {
       }}
     >
       <html lang="en" suppressHydrationWarning>
-        <body className={` ${inter.className} `}>
+        <body className={`${inter.className} bg-neutral-950 text-white`}>
+          <SnakeCursor />
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
