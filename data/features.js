@@ -1,4 +1,4 @@
-import { BrainCircuit, Briefcase, LineChart, ScrollText, ChartNoAxesGantt, CircleQuestionMark, Code} from "lucide-react";
+import { BrainCircuit, Briefcase, LineChart, ScrollText, ChartNoAxesGantt, CircleQuestionMark, Code, MessagesSquare} from "lucide-react";
 
 export const features = [
   {
@@ -43,5 +43,13 @@ export const features = [
     description:
       "Master web development fundamentals with clear, hands-on tutorials on web development. Get practical guidance, tips, and step-by-step explanations to build your skills confidently.",
 
-  }
+  },
+
+  {
+  icon: <MessagesSquare className="w-10 h-10 mb-4 text-primary" />,
+  title: "ForgeBot",
+  description:
+    "Your intelligent AI assistant designed to help you brainstorm, generate code, and answer questions instantly — seamlessly integrated into your workflow for maximum productivity.",
+}
+
 ];

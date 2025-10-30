@@ -1,0 +1,15 @@
+{
+  "/(auth)/sign-in/[[...sign-in]]/page": "/sign-in/[[...sign-in]]",
+  "/(auth)/sign-up/[[...sign-up]]/page": "/sign-up/[[...sign-up]]",
+  "/(main)/career-faqs/page": "/career-faqs",
+  "/(main)/dashboard/page": "/dashboard",
+  "/(main)/interview/mock/page": "/interview/mock",
+  "/(main)/interview/page": "/interview",
+  "/(main)/onboarding/page": "/onboarding",
+  "/(main)/preparationstreet/page": "/preparationstreet",
+  "/(main)/roadmaps/page": "/roadmaps",
+  "/_not-found/page": "/_not-found",
+  "/api/inngest/route": "/api/inngest",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

@@ -1,8 +1,3 @@
-module.exports = [
-"[externals]/node:async_hooks [external] (node:async_hooks, cjs)", ((__turbopack_context__, module, exports) => {
+module.exports=[78500,(o,e,s)=>{e.exports=o.x("node:async_hooks",()=>require("node:async_hooks"))}];
 
-const mod = __turbopack_context__.x("node:async_hooks", () => require("node:async_hooks"));
-
-module.exports = mod;
-}),
-];
+//# sourceMappingURL=%5Bexternals%5D_node%3Aasync_hooks_b485b2a4._.js.map

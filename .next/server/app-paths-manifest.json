@@ -1,3 +1,15 @@
 {
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
+  "/(auth)/sign-up/[[...sign-up]]/page": "app/(auth)/sign-up/[[...sign-up]]/page.js",
+  "/(main)/career-faqs/page": "app/(main)/career-faqs/page.js",
+  "/(main)/dashboard/page": "app/(main)/dashboard/page.js",
+  "/(main)/interview/mock/page": "app/(main)/interview/mock/page.js",
+  "/(main)/interview/page": "app/(main)/interview/page.js",
+  "/(main)/onboarding/page": "app/(main)/onboarding/page.js",
+  "/(main)/preparationstreet/page": "app/(main)/preparationstreet/page.js",
+  "/(main)/roadmaps/page": "app/(main)/roadmaps/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/inngest/route": "app/api/inngest/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"
 }

@@ -1,6 +1,1 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/harshitgangwar/Desktop/SkillForge/app/%28auth%29/layout.js"],"sourcesContent":["const AuthLayout = ({ children }) => {\n  return <div className=\"flex justify-center pt-40\">{children}</div>;\n};\n\nexport default AuthLayout;"],"names":[],"mappings":";;;;;;AAAA,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,qBAAO,8OAAC;QAAI,WAAU;kBAA6B;;;;;;AACrD;uCAEe","debugId":null}}]
-}
+{"version":3,"sources":["turbopack:///[project]/app/(auth)/layout.js"],"sourcesContent":["const AuthLayout = ({ children }) => {\n  return <div className=\"flex justify-center pt-40\">{children}</div>;\n};\n\nexport default AuthLayout;"],"names":[],"mappings":"oFAAmB,CAAC,UAAE,CAAQ,CAAE,GACvB,CAAA,EAAA,EAAA,GAAA,EAAC,KAGK,CAHL,CAAI,UAAU,qCAA6B"}
