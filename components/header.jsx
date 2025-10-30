@@ -10,6 +10,7 @@ import {
   Map,
   HelpCircle,
   BookOpen,
+  MessagesSquare,
 } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -57,6 +58,24 @@ export default async function Header() {
                 <LayoutDashboard className="h-4 w-4" />
               </Button>
             </Link>
+
+            {/* ForgeBot Button */}
+    <Link
+      href="https://forge-bot-phi.vercel.app" // 🔗 Replace with your actual ForgeBot link
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button
+        variant="outline"
+        className="hidden md:inline-flex items-center gap-2"
+      >
+        <MessagesSquare className="h-4 w-4 text-sky-500" />
+        ForgeBot
+      </Button>
+      <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
+        <MessagesSquare className="h-4 w-4 text-sky-500" />
+      </Button>
+    </Link>
 
             {/* Growth Tools Dropdown */}
             <DropdownMenu>

@@ -258,6 +258,7 @@
     --color-green-500: #00c758;
     --color-sky-300: #77d4ff;
     --color-sky-400: #00bcfe;
+    --color-sky-500: #00a5ef;
     --color-blue-400: #54a2ff;
     --color-blue-500: #3080ff;
     --color-indigo-300: #a4b3ff;
@@ -342,6 +343,7 @@
       --color-green-500: color(display-p3 .308734 .774754 .374307);
       --color-sky-300: color(display-p3 .546356 .822561 .990576);
       --color-sky-400: color(display-p3 .305975 .725011 .980173);
+      --color-sky-500: color(display-p3 .219113 .639027 .931479);
       --color-blue-400: color(display-p3 .397443 .62813 .992116);
       --color-blue-500: color(display-p3 .266422 .491219 .988624);
       --color-indigo-300: color(display-p3 .650892 .700156 .990824);
@@ -375,6 +377,7 @@
       --color-green-500: lab(70.5521% -66.5147 45.8073);
       --color-sky-300: lab(80.3307% -20.2945 -31.385);
       --color-sky-400: lab(70.687% -23.6078 -45.9483);
+      --color-sky-500: lab(63.3038% -18.433 -51.0407);
       --color-blue-400: lab(65.0361% -1.42065 -56.9802);
       --color-blue-500: lab(54.1736% 13.3369 -74.6839);
       --color-indigo-300: lab(74.0235% 8.54138 -41.6075);
@@ -2292,6 +2295,10 @@
     color: var(--secondary-foreground);
   }
 
+  .text-sky-500 {
+    color: var(--color-sky-500);
+  }
+
   .text-slate-300 {
     color: var(--color-slate-300);
   }
@@ -2547,10 +2554,6 @@
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
-  }
-
-  .will-change-\[transform\,filter\,opacity\] {
-    will-change: transform, filter, opacity;
   }
 
   .outline-none {
