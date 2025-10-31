@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 SkillForge  
+_Forge skills, shape your future — where careers are crafted with AI power._
 
-## Getting Started
+---
 
-First, run the development server:
+![SkillForge Banner](./public/banner.png)
+
+---
+
+## 🌐 Live Demo  
+🔗 **Website:** [https://skillforge.vercel.app](https://skillforge.vercel.app)  
+📦 **GitHub Repo:** [https://github.com/yourusername/skillforge](https://github.com/yourusername/skillforge)
+
+---
+
+## 📜 Overview
+
+**SkillForge** is a next-generation AI-powered career preparation platform designed for students and professionals.  
+It combines **AI intelligence**, **automation**, and **real-time insights** to help users build resumes, practice interviews, explore career paths, and learn efficiently — all in one place.
+
+---
+
+## 🚀 Features
+
+- 🧭 **Interactive Dashboard** – Weekly updates on skill demand & salary trends  
+- 📄 **AI Resume Builder** – Generates ATS-optimized, customizable resumes  
+- 💼 **AI Cover Letter Generator** – Personalized letters tailored to job descriptions  
+- 🧠 **Mock Interview Simulator** – Role-based Q&A + AI-powered feedback  
+- 💬 **ForgeBot** – AI chatbot assistant for instant career guidance  
+- ❓ **AI Career FAQs** – Clarifies common doubts (e.g., C++ vs Java, Web vs DSA)  
+- 🎓 **Preparation Street** – Curated video hub for web development and tech learning  
+- 🗺️ **Roadmaps** – Year-wise and role-based structured learning plans  
+
+✨ Together, these make SkillForge a **24×7 intelligent career mentor**.
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Technologies Used |
+|-----------|-------------------|
+| **Frontend** | React 19, Next.js 15, Tailwind CSS, Shadcn UI |
+| **Backend** | Next.js API Routes, Inngest |
+| **Database** | NeonDB (PostgreSQL) + Prisma ORM |
+| **Authentication** | Clerk |
+| **AI Engine** | Gemini API |
+| **Hosting** | Vercel + Neon Cloud |
+| **Version Control** | Git & GitHub |
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run SkillForge locally:
 
 ```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/yourusername/skillforge.git
+cd skillforge
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Create environment variables
+# Add the following in `.env.local`
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_key
+GEMINI_API_KEY=your_key
+DATABASE_URL=your_neondb_url
+
+# 4️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 5️⃣ Visit
+http://localhost:3000
