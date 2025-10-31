@@ -22,9 +22,7 @@ It combines **AI intelligence**, **automation**, and **real-time insights** to h
 
 ## 🚀 Features
 
-- 🧭 **Interactive Dashboard** – Weekly updates on skill demand & salary trends  
-- 📄 **AI Resume Builder** – Generates ATS-optimized, customizable resumes  
-- 💼 **AI Cover Letter Generator** – Personalized letters tailored to job descriptions  
+- 🧭 **Interactive Dashboard** – Weekly updates on skill demand & salary trends    
 - 🧠 **Mock Interview Simulator** – Role-based Q&A + AI-powered feedback  
 - 💬 **ForgeBot** – AI chatbot assistant for instant career guidance  
 - ❓ **AI Career FAQs** – Clarifies common doubts (e.g., C++ vs Java, Web vs DSA)  
