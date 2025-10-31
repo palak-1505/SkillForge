@@ -3,7 +3,7 @@ _Forge skills, shape your future — where careers are crafted with AI power._
 
 ---
 
-![SkillForge Banner](./public/banner1.png)
+![SkillForge Banner](https://github.com/h1a2r3s4h/SkillForge/blob/main/banner1.png?raw=true)
 
 ---
 
