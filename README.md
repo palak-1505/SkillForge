@@ -3,13 +3,13 @@ _Forge skills, shape your future — where careers are crafted with AI power._
 
 ---
 
-![SkillForge Banner](./public/banner.png)
+![SkillForge Banner](./public/banner1.png)
 
 ---
 
 ## 🌐 Live Demo  
-🔗 **Website:** [https://skillforge.vercel.app](https://skillforge.vercel.app)  
-📦 **GitHub Repo:** [https://github.com/yourusername/skillforge](https://github.com/yourusername/skillforge)
+🔗 **Website:** [https://skillforge.vercel.app](https://skill-forge-iota.vercel.app)  
+📦 **GitHub Repo:** [https://github.com/yourusername/skillforge](https://github.com/h1a2r3s4h/SkillForge)
 
 ---
 
@@ -55,7 +55,7 @@ Follow these steps to run SkillForge locally:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/skillforge.git
+git clone https://github.com/h1a2r3s4h/SkillForge.git
 cd skillforge
 
 # 2️⃣ Install dependencies
@@ -63,10 +63,10 @@ npm install
 
 # 3️⃣ Create environment variables
 # Add the following in `.env.local`
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
-CLERK_SECRET_KEY=your_key
-GEMINI_API_KEY=your_key
-DATABASE_URL=your_neondb_url
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+DATABASE_URL=your_postgres_connection_string
+GEMINI_API_KEY=your_gemini_api_key
 
 # 4️⃣ Run the development server
 npm run dev
