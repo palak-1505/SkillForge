@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "./ui/button";
 import {
   LayoutDashboard,
-
   GraduationCap,
   ChevronDown,
   StarsIcon,
@@ -19,7 +18,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import Image from "next/image";
 import { checkUser } from "@/lib/checkUser";
 
 export default async function Header() {
@@ -28,6 +26,7 @@ export default async function Header() {
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+        {/* Logo */}
         <Link href="/" className="flex items-center group">
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight flex items-center">
             <span className="text-white transition-colors duration-300 group-hover:text-gray-200">
@@ -35,7 +34,7 @@ export default async function Header() {
             </span>
             <span
               className="ml-1 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-500 to-indigo-600 
-      transition-all duration-500 group-hover:from-indigo-400 group-hover:via-blue-400 group-hover:to-sky-300"
+              transition-all duration-500 group-hover:from-indigo-400 group-hover:via-blue-400 group-hover:to-sky-300"
             >
               Forge
             </span>
@@ -45,6 +44,7 @@ export default async function Header() {
         {/* Action Buttons */}
         <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
+            {/* Dashboard Button */}
             <Link href="/dashboard">
               <Button
                 variant="outline"
@@ -59,22 +59,22 @@ export default async function Header() {
             </Link>
 
             {/* ForgeBot Button */}
-    <Link
-      href="https://forge-bot-phi.vercel.app" // 🔗 Replace with your actual ForgeBot link
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Button
-        variant="outline"
-        className="hidden md:inline-flex items-center gap-2"
-      >
-        <MessagesSquare className="h-4 w-4 text-sky-500" />
-        ForgeBot
-      </Button>
-      <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
-        <MessagesSquare className="h-4 w-4 text-sky-500" />
-      </Button>
-    </Link>
+            <Link
+              href="https://forge-bot-phi.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                variant="outline"
+                className="hidden md:inline-flex items-center gap-2"
+              >
+                <MessagesSquare className="h-4 w-4 text-sky-500" />
+                ForgeBot
+              </Button>
+              <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
+                <MessagesSquare className="h-4 w-4 text-sky-500" />
+              </Button>
+            </Link>
 
             {/* Growth Tools Dropdown */}
             <DropdownMenu>
@@ -85,8 +85,8 @@ export default async function Header() {
                   <ChevronDown className="h-4 w-4" />
                 </Button>
               </DropdownMenuTrigger>
-          
-              
+
+              <DropdownMenuContent>
                 <DropdownMenuItem asChild>
                   <Link href="/interview" className="flex items-center gap-2">
                     <GraduationCap className="h-4 w-4" />
@@ -109,23 +109,26 @@ export default async function Header() {
                 </DropdownMenuItem>
 
                 <DropdownMenuItem asChild>
-  <Link href="/preparationstreet" className="flex items-center gap-2">
-    <BookOpen className="h-4 w-4" /> {/* Change this icon as needed */}
-    PreparationStreet
-  </Link>
-</DropdownMenuItem>
-
-
+                  <Link
+                    href="/preparationstreet"
+                    className="flex items-center gap-2"
+                  >
+                    <BookOpen className="h-4 w-4" />
+                    PreparationStreet
+                  </Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </SignedIn>
 
+          {/* Sign In Button */}
           <SignedOut>
             <SignInButton>
               <Button variant="outline">Sign In</Button>
             </SignInButton>
           </SignedOut>
 
+          {/* User Button */}
           <SignedIn>
             <UserButton
               appearance={{
