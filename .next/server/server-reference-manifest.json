@@ -1,324 +1,37 @@
 {
   "node": {
-    "7f40d1c5e1d77d26d9c75becc24b61c29ce509efad": {
+    "7fe310bbb60e8259fbb7b7363961b1a0235fc71a51": {
       "workers": {
         "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+          "exportedName": "checkUser",
+          "filename": "lib/checkUser.js"
         },
         "app/page": {
-          "moduleId": "53358",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+          "exportedName": "checkUser",
+          "filename": "lib/checkUser.js"
         }
       },
       "layer": {
         "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
-        "app/(main)/career-faqs/page": "rsc",
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/interview/mock/page": "rsc",
-        "app/(main)/interview/page": "rsc",
-        "app/(main)/onboarding/page": "rsc",
-        "app/(main)/preparationstreet/page": "rsc",
-        "app/(main)/roadmaps/page": "rsc",
-        "app/_not-found/page": "rsc",
         "app/page": "rsc"
       },
-      "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
-      "exportedName": "detectKeylessEnvDriftAction"
-    },
-    "7f7ffe059970202cf9cd1226904704723ea510b20e": {
-      "workers": {
-        "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
-        "app/page": {
-          "moduleId": "53358",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        }
-      },
-      "layer": {
-        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
-        "app/(main)/career-faqs/page": "action-browser",
-        "app/(main)/dashboard/page": "action-browser",
-        "app/(main)/interview/mock/page": "action-browser",
-        "app/(main)/interview/page": "action-browser",
-        "app/(main)/onboarding/page": "action-browser",
-        "app/(main)/preparationstreet/page": "action-browser",
-        "app/(main)/roadmaps/page": "action-browser",
-        "app/_not-found/page": "action-browser",
-        "app/page": "action-browser"
-      },
-      "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
-      "exportedName": "invalidateCacheAction"
-    },
-    "7f083396359edc9d2ec139e6362397a3f5bbc8a80f": {
-      "workers": {
-        "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/page": {
-          "moduleId": "53358",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        }
-      },
-      "layer": {
-        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
-        "app/(main)/career-faqs/page": "rsc",
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/interview/mock/page": "rsc",
-        "app/(main)/interview/page": "rsc",
-        "app/(main)/onboarding/page": "rsc",
-        "app/(main)/preparationstreet/page": "rsc",
-        "app/(main)/roadmaps/page": "rsc",
-        "app/_not-found/page": "rsc",
-        "app/page": "rsc"
-      },
-      "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
-      "exportedName": "createOrReadKeylessAction"
+      "filename": "lib/checkUser.js",
+      "exportedName": "checkUser"
     },
     "7f3b459f04aaa421ed5f71e37f6cc201fefa44a4c5": {
       "workers": {
         "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "collectKeylessMetadata",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "collectKeylessMetadata",
           "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         },
         "app/page": {
-          "moduleId": "53358",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "collectKeylessMetadata",
           "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
@@ -326,15 +39,6 @@
       },
       "layer": {
         "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
-        "app/(main)/career-faqs/page": "rsc",
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/interview/mock/page": "rsc",
-        "app/(main)/interview/page": "rsc",
-        "app/(main)/onboarding/page": "rsc",
-        "app/(main)/preparationstreet/page": "rsc",
-        "app/(main)/roadmaps/page": "rsc",
-        "app/_not-found/page": "rsc",
         "app/page": "rsc"
       },
       "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
@@ -343,67 +47,13 @@
     "7f4af8edc1f44e0e83d0f5b9587706089f93f9c21d": {
       "workers": {
         "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "formatMetadataHeaders",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "formatMetadataHeaders",
           "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
         },
         "app/page": {
-          "moduleId": "53358",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "formatMetadataHeaders",
           "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
@@ -411,84 +61,65 @@
       },
       "layer": {
         "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
-        "app/(main)/career-faqs/page": "rsc",
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/interview/mock/page": "rsc",
-        "app/(main)/interview/page": "rsc",
-        "app/(main)/onboarding/page": "rsc",
-        "app/(main)/preparationstreet/page": "rsc",
-        "app/(main)/roadmaps/page": "rsc",
-        "app/_not-found/page": "rsc",
         "app/page": "rsc"
       },
       "filename": "node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
       "exportedName": "formatMetadataHeaders"
     },
+    "7f083396359edc9d2ec139e6362397a3f5bbc8a80f": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
+      "exportedName": "createOrReadKeylessAction"
+    },
+    "7f40d1c5e1d77d26d9c75becc24b61c29ce509efad": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
+      "exportedName": "detectKeylessEnvDriftAction"
+    },
     "7f6e100b553e0d491dbf86f463e91628447070ad44": {
       "workers": {
         "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "syncKeylessConfigAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "syncKeylessConfigAction",
           "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         },
         "app/page": {
-          "moduleId": "53358",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "syncKeylessConfigAction",
           "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
@@ -496,15 +127,6 @@
       },
       "layer": {
         "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
-        "app/(main)/career-faqs/page": "action-browser",
-        "app/(main)/dashboard/page": "action-browser",
-        "app/(main)/interview/mock/page": "action-browser",
-        "app/(main)/interview/page": "action-browser",
-        "app/(main)/onboarding/page": "action-browser",
-        "app/(main)/preparationstreet/page": "action-browser",
-        "app/(main)/roadmaps/page": "action-browser",
-        "app/_not-found/page": "action-browser",
         "app/page": "action-browser"
       },
       "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
@@ -513,67 +135,13 @@
     "7f8406d66f4921cfd62510a5f53166feed78a6ad8c": {
       "workers": {
         "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "deleteKeylessAction",
-          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "deleteKeylessAction",
           "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
         },
         "app/page": {
-          "moduleId": "53358",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "deleteKeylessAction",
           "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
@@ -581,251 +149,32 @@
       },
       "layer": {
         "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
-        "app/(main)/career-faqs/page": "action-browser",
-        "app/(main)/dashboard/page": "action-browser",
-        "app/(main)/interview/mock/page": "action-browser",
-        "app/(main)/interview/page": "action-browser",
-        "app/(main)/onboarding/page": "action-browser",
-        "app/(main)/preparationstreet/page": "action-browser",
-        "app/(main)/roadmaps/page": "action-browser",
-        "app/_not-found/page": "action-browser",
         "app/page": "action-browser"
       },
       "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
       "exportedName": "deleteKeylessAction"
     },
-    "7fe310bbb60e8259fbb7b7363961b1a0235fc71a51": {
+    "7f7ffe059970202cf9cd1226904704723ea510b20e": {
       "workers": {
         "app/(auth)/sign-in/[[...sign-in]]/page": {
-          "moduleId": "46827",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(auth)/sign-up/[[...sign-up]]/page": {
-          "moduleId": "66196",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/career-faqs/page": {
-          "moduleId": "10359",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/preparationstreet/page": {
-          "moduleId": "235",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/(main)/roadmaps/page": {
-          "moduleId": "43781",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
-        },
-        "app/_not-found/page": {
-          "moduleId": "90368",
-          "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
+          "exportedName": "invalidateCacheAction",
+          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
         },
         "app/page": {
-          "moduleId": "53358",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/checkUser.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
-          "exportedName": "checkUser",
-          "filename": "lib/checkUser.js"
+          "exportedName": "invalidateCacheAction",
+          "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
         }
       },
       "layer": {
-        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
-        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
-        "app/(main)/career-faqs/page": "rsc",
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/interview/mock/page": "rsc",
-        "app/(main)/interview/page": "rsc",
-        "app/(main)/onboarding/page": "rsc",
-        "app/(main)/preparationstreet/page": "rsc",
-        "app/(main)/roadmaps/page": "rsc",
-        "app/_not-found/page": "rsc",
-        "app/page": "rsc"
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/page": "action-browser"
       },
-      "filename": "lib/checkUser.js",
-      "exportedName": "checkUser"
-    },
-    "009313bbd26b4c912ef552490158f6068b7ff94603": {
-      "workers": {
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "getAssessments",
-          "filename": "actions/interview.js"
-        }
-      },
-      "layer": {
-        "app/(main)/interview/page": "rsc"
-      },
-      "filename": "actions/interview.js",
-      "exportedName": "getAssessments"
-    },
-    "00b055ac0d0b56ce537a9a693f67b6dc9fab96e9fb": {
-      "workers": {
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "generateQuiz",
-          "filename": "actions/interview.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "generateQuiz",
-          "filename": "actions/interview.js"
-        }
-      },
-      "layer": {
-        "app/(main)/interview/mock/page": "action-browser",
-        "app/(main)/interview/page": "rsc"
-      },
-      "filename": "actions/interview.js",
-      "exportedName": "generateQuiz"
-    },
-    "70e9b83d68fa1cc419daff1e6c20ce0c5067db76ae": {
-      "workers": {
-        "app/(main)/interview/mock/page": {
-          "moduleId": "50558",
-          "async": false,
-          "exportedName": "saveQuizResult",
-          "filename": "actions/interview.js"
-        },
-        "app/(main)/interview/page": {
-          "moduleId": "94216",
-          "async": false,
-          "exportedName": "saveQuizResult",
-          "filename": "actions/interview.js"
-        }
-      },
-      "layer": {
-        "app/(main)/interview/mock/page": "action-browser",
-        "app/(main)/interview/page": "rsc"
-      },
-      "filename": "actions/interview.js",
-      "exportedName": "saveQuizResult"
-    },
-    "009548a5671e2dbef14a15e6b8e9d333533daf6801": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "getIndustryInsights",
-          "filename": "actions/dashboard.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "getIndustryInsights",
-          "filename": "actions/dashboard.js"
-        }
-      },
-      "layer": {
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/onboarding/page": "rsc"
-      },
-      "filename": "actions/dashboard.js",
-      "exportedName": "getIndustryInsights"
-    },
-    "7fe75d3316c59bc6aca7ab936ad42e4f28e3ffb6ea": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "generateAIInsights",
-          "filename": "actions/dashboard.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "generateAIInsights",
-          "filename": "actions/dashboard.js"
-        }
-      },
-      "layer": {
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/onboarding/page": "rsc"
-      },
-      "filename": "actions/dashboard.js",
-      "exportedName": "generateAIInsights"
-    },
-    "006c189ca57e4b7bd2cd796229b588c89718148479": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "getUserOnboardingStatus",
-          "filename": "actions/user.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "getUserOnboardingStatus",
-          "filename": "actions/user.js"
-        }
-      },
-      "layer": {
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/onboarding/page": "rsc"
-      },
-      "filename": "actions/user.js",
-      "exportedName": "getUserOnboardingStatus"
-    },
-    "4065cd9ed6f83771e0ad044ee07e9734f790c0cc7a": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "89370",
-          "async": false,
-          "exportedName": "updateUser",
-          "filename": "actions/user.js"
-        },
-        "app/(main)/onboarding/page": {
-          "moduleId": "15643",
-          "async": false,
-          "exportedName": "updateUser",
-          "filename": "actions/user.js"
-        }
-      },
-      "layer": {
-        "app/(main)/dashboard/page": "rsc",
-        "app/(main)/onboarding/page": "rsc"
-      },
-      "filename": "actions/user.js",
-      "exportedName": "updateUser"
+      "filename": "node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
+      "exportedName": "invalidateCacheAction"
     }
   },
   "edge": {},
