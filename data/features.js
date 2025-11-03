@@ -20,11 +20,6 @@ export const features = [
       "Stay ahead with real-time industry trends, salary data, and market analysis.",
   },
   {
-    icon: <ScrollText className="w-10 h-10 mb-4 text-primary" />,
-    title: "Smart Resume Creation",
-    description: "Generate ATS-optimized resumes with AI assistance.",
-  },
-  {
     icon: <ChartNoAxesGantt className="w-10 h-10 mb-4 text-primary" />,
     title: "Career Roadmap",
     description:
