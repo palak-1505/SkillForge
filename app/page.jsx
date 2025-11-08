@@ -147,6 +147,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section className="w-full ">
+        <div className="mx-auto py-24  rounded-lg flex flex-col items-center justify-center ">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold tracking-tighter text-muted-foreground sm:text-4xl md:text-5xl">Get in Touch</h2>
+            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
+              Have questions or need assistance? We're here to help!
+            </p>
+          </div>
+
+          <Link href="/contact" passHref>
+              <Button
+                size="lg"
+                variant="secondary"
+                className="h-11 mt-5 transition-transform hover:scale-105"
+              >
+                Contact Us <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+          </Link>
+        </div>
+
+      </section>
+
 
     </div>
   );
